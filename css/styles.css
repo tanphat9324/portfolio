@@ -279,7 +279,7 @@ body{
   }
   
   [class*="timeline-item"]:hover .month {
-	color: #f6483b;
+	color: #27a79a;
 	opacity: 1;
 	transition: all 0.5s;
   }
@@ -298,7 +298,7 @@ body{
   
   [class*="timeline-item"]:hover::before,
   [class*="timeline-item"]:hover::after {
-	background: #f6483b;
+	background: #27a79a;
 	transition: all 0.5s;
   }
   
@@ -363,7 +363,7 @@ body{
   }
   
   .title:after {
-	color: #f6483b;
+	color: #27a79a;
     font-size: 0.4em;
     display: inline-block;
     width: 100px;
@@ -640,6 +640,11 @@ textarea:focus ~ .highlight {
 }
 .contact_tel{
 	text-align: center;
+	padding:10px 0;
+	font-size: 18px;
+}
+.contact_email{
+	font-size: 22px;
 }
 .contact_info{
 	padding:50px 0;
@@ -661,3 +666,22 @@ textarea:focus ~ .highlight {
 .footer_name{
 	color:white;
 }
+.cd-top {
+	position: fixed;
+	bottom: 30px;
+	right: 10px;
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+	background: url(/images/cd-top-arrow.svg) no-repeat center 50%;
+	background-color: alpha(hsl(5, 76%, 62%), 0.8);
+  }
+  .cd-top--is-visible { 
+	visibility: visible;
+	opacity: 1;
+  }
+  
+  .cd-top--fade-out {
+	opacity: .5;
+  }
