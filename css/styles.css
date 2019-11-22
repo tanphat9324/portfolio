@@ -472,7 +472,21 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 0.8;
 }
-
+.project_title{
+  font-weight: bold;
+  float: left;
+  width: 95px;
+}
+.linkGitHub{
+  color:#27a79a;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+.linkGitHub:hover{
+  color:#17867a;
+  text-decoration: none;
+}
 /*============================================== END PROJECT ====================================================*/
 
 /*================================================ CONTACT ======================================================*/
