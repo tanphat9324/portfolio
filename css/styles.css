@@ -288,7 +288,11 @@ body {
   content: "LEARNING";
   left: 111px!important;
 }
-
+.date{
+  font-style: italic;
+  color:rgb(151, 151, 151);
+  font-size: 14px;
+}
 /* Timeline */
 
 .timeline {
