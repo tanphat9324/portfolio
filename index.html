@@ -11,12 +11,12 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=vietnamese" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-  <body onload="myFunction()" data-target=".navbar" data-spy="scroll" data-offset="50">
+  <body class="scrollbar" id="style-1" onload="myFunction()" data-target=".navbar" data-spy="scroll" data-offset="150">
        <!-- Preloader -->
     <div id="animationload">
         <div class="loader">
@@ -24,7 +24,7 @@
         </div>
     </div> 
     <!-- End Preloader -->
-
+    <div class="force-overflow">
     <!-- HEADER -->
     <header>
         <section class="header">
@@ -76,7 +76,7 @@
                     <h1 class="bounce wow pb-4">Luong Tan Phat</h1>
                     <div class="typewrite" data-period="2000">
                         <h1 class="jobName">FRONT-END DEVELOPER</h1></div>
-                        <br><br><br>
+                        <br><br>
                      
                     </div>
                     
@@ -95,7 +95,7 @@
                     <img src="./images/avatar1.jpg" alt="">
                 </div>
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-5">
                         <div class="personal_detail">
                                 <ul>
                                     <li>
@@ -116,7 +116,7 @@
                                 </ul>
                             </div>
             </div>
-            <div class="col-sm-8">
+            <div class="col-sm-7">
                 <div class="personal_info">
                         My name is Phat. I’m extremely passionate about web development especially Frontend Development, helping businesses and improve their online presence.
 <br/>
@@ -211,26 +211,26 @@
     <!-- END WORK EXPERIENCE -->
 
     <!-- TECHNOLOGY -->
-    <section class="technology">
+    <section class="technology wow bounceInUp slower">
         <div id='technology' class="technology_bg">
             <h2 class="text-center" id="texthead">TECHNOLOGY</h2>
             <div class="tech_info">
-               <div class="tech_item wow bounceInUp delay-2s">
+               <div class="tech_item">
                    <div class="tech_title">HTML5 & CSS3</div>
                </div>
-               <div class="tech_item wow bounceInUp delay-3s">
+               <div class="tech_item">
                     <div class="tech_title">JAVASCRIPT</div>
                 </div>
-                <div class="tech_item wow bounceInUp delay-4s">
+                <div class="tech_item">
                         <div class="tech_title">REACTJS</div>
                     </div>
-                    <div class="tech_item wow bounceInUp delay-5s">
+                    <div class="tech_item">
                             <div class="tech_title">REDUX</div>
                         </div>
-                        <div class="tech_item wow bounceInUp delay-6s">
+                        <div class="tech_item">
                                 <div class="tech_title">NODEJS</div>
                             </div>
-                            <div class="tech_item wow bounceInUp delay-7s">
+                            <div class="tech_item">
                                     <div class="tech_title">GIT</div>
                                 </div>
             </div>
@@ -252,9 +252,9 @@
                         </div>
                         <div style="display:flex;align-items:center" class="col-md-6">
                            <div>
-                                <div>GitHub: github.com/tanphat9324/</div>
-                                <div>Description: Project 123phim</div>
-                                <div>Tech stack: ReactJs,Git.</div>
+                                <div><strong>GitHub:</strong> github.com/tanphat9324/</div>
+                                <div><strong>Description:</strong> Project 123phim</div>
+                                <div><strong>Tech stack:</strong> ReactJs,Git.</div>
                            </div>
                            
                         </div>
@@ -309,7 +309,6 @@
                         <div class="col-md-6">
                                 <div class="imageAvatar_contact">
                                     <div>
-
                                         <div class="text-center"><img src="./images/avatar1.jpg" width="170px" height="170px" alt="">
                                         </div>  
                                         <div class="contact_tel">0983.007.839</div>
@@ -331,8 +330,8 @@
             </div>
         </div>
     </footer>
-    <a href="#" class="cd-top text-replace js-cd-top">Top</a>
-
+    <a id="backToTop"></a>
+</div>
     <!-- END FOOTER -->
 
     <!-- Optional JavaScript -->
@@ -341,15 +340,30 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script src="./js/util.js"></script>
-    <script src="./js/main.js"></script>
-
     <script>                
     new WOW().init();
     var preloader = document.getElementById('animationload');
     setTimeout(function myFunction(){
      preloader.style.display = 'none';   
     },800);
+    </script>
+
+    <script>
+    // BACK TO TOP
+    $(function(){
+    var btn = $('#backToTop');
+    $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+        btn.addClass('show');
+    } else {
+        btn.removeClass('show');
+    }
+    });
+    $('#backToTop').click(function(e) {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    });
+    })
     </script>
 </body>
 </html>
