@@ -218,12 +218,14 @@ body {
 
 /*============================================================= ABOUT ME ===============================================*/
 #aboutMe {
+  max-width: 100%;
+}
+.aboutMe_bg{
   padding-top: 50px;
   padding-bottom: 50px;
   width: 50%;
   margin: 0 auto;
 }
-
 #texthead {
   font-weight: bold;
 }
@@ -239,6 +241,7 @@ body {
 .personal_info {
   padding: 20px 0;
   text-align: justify;
+  width: 100%;
 }
 .personal_detail ul {
   padding: 20px 0;
@@ -271,12 +274,19 @@ body {
 #experience {
   padding-top: 20px;
 }
+.title-experience:before {
+  width: 144px!important;
+}
+.title-experience:after {
+  content: "WORK";
+  left: 151px!important;
+}
 .title-education:before {
-  width: 215px;
+  width: 106px!important;
 }
 .title-education:after {
   content: "LEARNING";
-  left: 225px;
+  left: 111px!important;
 }
 
 /* Timeline */
@@ -771,4 +781,13 @@ textarea:focus ~ .highlight {
 #backToTop.show {
   opacity: 1;
   visibility: visible;
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+.tech_item {
+    width: 33.333333%;
+    padding-bottom: 50px;
+justify-content: center;  }
 }
