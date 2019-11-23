@@ -18,16 +18,16 @@ body {
   z-index: 999999;
 }
 .loader {
-  width: 150px;
-  height: 150px;
+  width: 9.375rem;
+  height: 9.375rem;
   font-size: 0;
   position: absolute;
   left: 50%;
   top: 50%;
-  background-image: url(../images/Wedges-3s-200px.gif);
+  background-image: url(../images/Wedges-3s-12.5rem.gif);
   background-repeat: no-repeat;
   background-position: center;
-  margin: -100px 0 0 -100px;
+  margin: -6.25rem 0 0 -6.25rem;
 }
 /*=============================================== END PRELOADER ==================================================*/
 
@@ -35,15 +35,15 @@ body {
 .scrollbar {
   background-color: #f5f5f5;
   float: left;
-  height: 300px;
+  height: 18.75rem;
   overflow-y: scroll;
 }
 
 .force-overflow {
-  min-height: 450px;
+  min-height: 28.125rem;
 }
 #style-1::-webkit-scrollbar {
-  width: 6px;
+  width: 0.375rem;
   background-color: #f5f5f5;
 }
 #style-1::-webkit-scrollbar-thumb {
@@ -72,7 +72,7 @@ body {
 }
 .customNav {
   background-color: rgb(83, 83, 83) !important;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.1);
 }
 .imageHeader > .textAvatar {
   top: 50%;
@@ -95,7 +95,7 @@ body {
   animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
   font-size: 1.5em;
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 /* The typing effect */
 @keyframes typing {
@@ -119,21 +119,21 @@ body {
 
 .imageAvatar {
   text-align: center;
-  padding: 20px 0;
+  padding: 1.25rem 0;
 }
 
 .textAvatar > .imageAvatar > img,
 .imageAvatar > img {
-  width: 170px;
-  height: 170px;
+  width: 10.625rem;
+  height: 10.625rem;
   border-radius: 50%;
-  border: solid 3px #dfdfdf;
+  border: solid 0.1875rem #dfdfdf;
 }
 .textAvatar > h1 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 600;
   margin: 0;
-  padding: 10px 0 !important;
+  padding: 0.625rem 0 !important;
 }
 .jobName {
   font-weight: 400;
@@ -144,22 +144,22 @@ body {
   position: absolute;
   top: 90%;
   left: 50%;
-  width: 30px;
-  height: 50px;
-  margin-left: -15px;
-  border: 2px solid #fff;
-  border-radius: 50px;
+  width: 1.875rem;
+  height: 3.125rem;
+  margin-left: -0.9375rem;
+  border: 0.125rem solid #fff;
+  border-radius: 3.125rem;
   box-sizing: border-box;
 }
 
 #scroll > a > span::before {
   position: absolute;
-  top: 10px;
+  top: 0.625rem;
   left: 50%;
   content: "";
-  width: 6px;
-  height: 6px;
-  margin-left: -3px;
+  width: 0.375rem;
+  height: 0.375rem;
+  margin-left: -0.1875rem;
   background-color: #fff;
   border-radius: 100%;
   -webkit-animation: sdb10 2s infinite;
@@ -176,7 +176,7 @@ body {
     opacity: 1;
   }
   80% {
-    -webkit-transform: translate(0, 20px);
+    -webkit-transform: translate(0, 1.25rem);
     opacity: 0;
   }
   100% {
@@ -192,7 +192,7 @@ body {
     opacity: 1;
   }
   80% {
-    transform: translate(0, 20px);
+    transform: translate(0, 1.25rem);
     opacity: 0;
   }
   100% {
@@ -221,8 +221,8 @@ body {
   max-width: 100%;
 }
 .aboutMe_bg{
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
   width: 50%;
   margin: 0 auto;
 }
@@ -232,23 +232,23 @@ body {
 .infoTitle {
   font-weight: bold;
   float: left;
-  width: 75px;
+  width: 4.6875rem;
 }
 .iconInfo {
   float: left;
-  width: 40px;
+  width: 2.5rem;
 }
 .personal_info {
-  padding: 20px 0;
+  padding: 1.25rem 0;
   text-align: justify;
   width: 100%;
 }
 .personal_detail ul {
-  padding: 20px 0;
+  padding: 1.25rem 0;
 }
 .personal_detail ul li {
-  padding: 5px 0;
-  margin-bottom: 5px;
+  padding: 0.3125rem 0;
+  margin-bottom: 0.3125rem;
   list-style-type: none;
 }
 /*=========================================== END ABOUT ME =========================================================*/
@@ -258,40 +258,40 @@ body {
   background-color: #fafafa;
 }
 .experience_info {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
   width: 50%;
   margin: 0 auto;
 }
 /* Education */
 #experience {
-  padding-top: 56px !important;
+  padding-top: 3.5rem !important;
 }
 #education {
-  padding-top: 56px !important;
+  padding-top: 3.5rem !important;
 }
 #education,
 #experience {
-  padding-top: 20px;
+  padding-top: 1.25rem;
 }
 .title-experience:before {
-  width: 144px!important;
+  width: 9rem!important;
 }
 .title-experience:after {
   content: "WORK";
-  left: 151px!important;
+  left: 9.4375rem!important;
 }
 .title-education:before {
-  width: 106px!important;
+  width: 6.625rem!important;
 }
 .title-education:after {
   content: "LEARNING";
-  left: 111px!important;
+  left: 6.9375rem!important;
 }
 .date{
   font-style: italic;
   color:rgb(151, 151, 151);
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 /* Timeline */
 
@@ -302,7 +302,7 @@ body {
 .timeline:before {
   content: "";
   display: block;
-  width: 1px;
+  width: 0.0625rem;
   height: 100%;
   background: #444;
   position: absolute;
@@ -325,12 +325,12 @@ body {
 .timeline-item-left:after {
   content: "";
   display: block;
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
   border-radius: 50%;
   background: #444;
   position: absolute;
-  top: 50px;
+  top: 3.125rem;
 }
 
 [class*="timeline-item"]:hover::before,
@@ -341,20 +341,20 @@ body {
 
 .timeline-item-right {
   text-align: left;
-  padding-left: 100px;
+  padding-left: 6.25rem;
 }
 
 .timeline-item-left {
   text-align: right;
-  padding-right: 100px;
+  padding-right: 6.25rem;
 }
 
 .timeline-item-right::before {
-  left: -24.5px;
+  left: -1.5313rem;
 }
 
 .timeline-item-left::after {
-  right: -25.5px;
+  right: -1.5938rem;
 }
 
 .month {
@@ -363,15 +363,15 @@ body {
   opacity: 0.2;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 47.9375rem) {
   .timeline-item-left {
     padding-right: 0;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
   }
 
   .timeline-item-right {
     padding-left: 0;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
   }
 
   .timeline:before,
@@ -385,45 +385,45 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 
 .title::before {
   content: "";
   display: block;
   font-size: 0.5em;
-  width: 118px;
-  height: 2px;
+  width: 7.375rem;
+  height: 0.125rem;
   background: #ccc;
   position: absolute;
-  bottom: -10px;
+  bottom: -0.625rem;
 }
 
 .title:after {
   color: #27a79a;
   font-size: 0.4em;
   display: inline-block;
-  width: 100px;
-  height: 10px;
+  width: 6.25rem;
+  height: 0.625rem;
   /* background: black; */
   position: absolute;
-  bottom: -10px;
-  left: 120px;
+  bottom: -0.625rem;
+  left: 7.5rem;
 }
 
 /*============================================== END EXPERIENCE ==============================================*/
 
 /*=============================================== TECHNOLOGY ================================================*/
 .technology_bg {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
   width: 50%;
   margin: 0 auto;
 }
 .tech_info {
   display: flex;
   flex-flow: row wrap;
-  padding: 50px 0;
+  padding: 3.125rem 0;
 }
 .tech_item {
   width: 16.6666667%;
@@ -436,9 +436,9 @@ body {
 }
 .tech_title {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  border: 2px solid #27a79a;
+  width: 6.25rem;
+  height: 6.25rem;
+  border: 0.125rem solid #27a79a;
   display: flex;
   align-items: center;
   text-align: center;
@@ -451,16 +451,16 @@ body {
   background-color: #fafafa;
 }
 .project_bg {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
   width: 50%;
   margin: 0 auto;
 }
 .project_info {
-  padding: 20px 0;
+  padding: 1.25rem 0;
 }
 .project_link {
-  border: 1px solid black;
+  border: 0.0625rem solid black;
   position: relative;
 }
 .overlay {
@@ -479,7 +479,7 @@ body {
 .project_title{
   font-weight: bold;
   float: left;
-  width: 95px;
+  width: 5.9375rem;
 }
 .linkGitHub{
   color:#27a79a;
@@ -495,24 +495,24 @@ body {
 
 /*================================================ CONTACT ======================================================*/
 .contact_bg {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
   width: 50%;
   margin: 0 auto;
 }
 .group {
   position: relative;
-  margin-bottom: 45px;
+  margin-bottom: 2.8125rem;
 }
 
 input {
   width: 100%;
   background: none;
-  font-size: 18px;
-  padding: 10px 10px 10px 5px;
+  font-size: 1.125rem;
+  padding: 0.625rem 0.625rem 0.625rem 0.3125rem;
   display: block;
   border: none;
-  border-bottom: 1px solid #757575;
+  border-bottom: 0.0625rem solid #757575;
 }
 
 input:focus {
@@ -521,12 +521,12 @@ input:focus {
 
 label {
   color: #999;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: normal;
   position: absolute;
   pointer-events: none;
-  left: 5px;
-  top: 10px;
+  left: 0.3125rem;
+  top: 0.625rem;
   transition: 0.1s ease all;
   -moz-transition: 0.1s ease all;
   -o-transition: 0.1s ease all;
@@ -536,8 +536,8 @@ label {
 
 input:focus ~ label,
 input:valid ~ label {
-  top: -20px;
-  font-size: 12px;
+  top: -1.25rem;
+  font-size: 0.75rem;
   color: #27a79a;
   transition: 0.2s linear;
 }
@@ -550,9 +550,9 @@ input:valid ~ label {
 .bar:before,
 .bar:after {
   content: "";
-  height: 3px;
+  height: 0.1875rem;
   width: 0;
-  bottom: -1px;
+  bottom: -0.0625rem;
   position: absolute;
   background: #27a79a;
   transition: 0.1s ease all;
@@ -576,7 +576,7 @@ input:focus ~ .bar:after {
 .highlight {
   position: absolute;
   height: 60%;
-  width: 100px;
+  width: 6.25rem;
   top: 25%;
   left: 0;
   pointer-events: none;
@@ -630,12 +630,12 @@ input:focus ~ .highlight {
 
 textarea {
   background: none;
-  font-size: 18px;
-  padding: 10px 10px 10px 5px;
+  font-size: 1.125rem;
+  padding: 0.625rem 0.625rem 0.625rem 0.3125rem;
   display: block;
   width: 100%;
   border: none;
-  border-bottom: 1px solid #757575;
+  border-bottom: 0.0625rem solid #757575;
 }
 
 textarea:focus {
@@ -644,8 +644,8 @@ textarea:focus {
 
 textarea:focus ~ label,
 textarea:valid ~ label {
-  top: -20px;
-  font-size: 14px;
+  top: -1.25rem;
+  font-size: 0.875rem;
   color: #27a79a;
 }
 
@@ -700,16 +700,16 @@ textarea:focus ~ .highlight {
 }
 
 #infomess {
-  padding: 50px 50px 30px 50px;
+  padding: 3.125rem 3.125rem 1.875rem 3.125rem;
   background: white;
-  box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 0.375rem 1.125rem 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn {
   background: #27a79a !important;
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: white;
-  border-radius: 4px !important;
+  border-radius: 0.25rem !important;
   transition: all 0.4s;
 }
 .btn:hover {
@@ -722,8 +722,8 @@ textarea:focus ~ .highlight {
   justify-content: center;
 }
 #btnsend {
-  padding: 10px 55px;
-  border-radius: 0px;
+  padding: 0.625rem 3.4375rem;
+  border-radius: 0rem;
 }
 .imageAvatar_contact {
   display: flex;
@@ -734,25 +734,25 @@ textarea:focus ~ .highlight {
 }
 .imageAvatar_contact img {
   border-radius: 50%;
-  border: solid 3px #dfdfdf;
+  border: solid 0.1875rem #dfdfdf;
 }
 .contact_tel {
   text-align: center;
-  padding: 10px 0;
-  font-size: 18px;
+  padding: 0.625rem 0;
+  font-size: 1.125rem;
 }
 .contact_email {
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 .contact_info {
-  padding: 50px 0;
+  padding: 3.125rem 0;
 }
 /*========================================================== END CONTACT ===============================================*/
 
 /*========================================================= FOOTER =====================================================*/
 .footer {
   background-color: rgb(83, 83, 83) !important;
-  height: 56px;
+  height: 3.5rem;
 }
 .footer_title {
   width: 100%;
@@ -768,13 +768,13 @@ textarea:focus ~ .highlight {
 #backToTop {
   display: inline-block;
   background-color: #27a79a;
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
   text-align: center;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 1.875rem;
+  right: 1.875rem;
   transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
   opacity: 0;
   visibility: hidden;
@@ -786,7 +786,7 @@ textarea:focus ~ .highlight {
   font-weight: normal;
   font-style: normal;
   font-size: 2em;
-  line-height: 50px;
+  line-height: 3.125rem;
   color: #fff;
 }
 #backToTop:hover {
@@ -802,60 +802,60 @@ textarea:focus ~ .highlight {
 }
 
 
-@media only screen and (max-width: 1550px) {
+@media only screen and (max-width: 96.875rem) {
 .aboutMe_bg{
   width: 60%;
   margin:0 auto;
 }
   }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 87.5rem) {
 .tech_item {
     width: 33.333333%;
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
 justify-content: center;  
   }
 }
 
-@media only screen and (max-width: 1272px) {
+@media only screen and (max-width: 79.5rem) {
   .aboutMe_bg{
     width: 70%;
     margin:0 auto;
   }
   }
-  @media only screen and (max-width: 1083px) {
+  @media only screen and (max-width: 67.6875rem) {
     .aboutMe_bg{
       width: 80%;
       margin:0 auto;
     }
     }
-    @media only screen and (max-width: 948px) {
+    @media only screen and (max-width: 59.25rem) {
       .aboutMe_bg{
         width: 90%;
         margin:0 auto;
       }
       }
-      @media only screen and (max-width: 783px) {
+      @media only screen and (max-width: 48.9375rem) {
         .imageAvatar_contact{
-          margin-top: 20px;
+          margin-top: 1.25rem;
         }
         }
-      @media only screen and (max-width: 677px) {
+      @media only screen and (max-width: 42.3125rem) {
         .technology_bg{
           width: 60%;
           margin:0 auto;
         }
         }
-        @media only screen and (max-width: 550px) {
+        @media only screen and (max-width: 34.375rem) {
           .technology_bg{
             width: 70%;
             margin:0 auto;
           }
           }
-          @media only screen and (max-width: 475px) {
+          @media only screen and (max-width: 29.6875rem) {
             .tech_item {
               width: 50%;
-              padding-bottom: 50px;
+              padding-bottom: 3.125rem;
           justify-content: center;  
             }
             }
