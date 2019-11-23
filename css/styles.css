@@ -802,10 +802,60 @@ textarea:focus ~ .highlight {
 }
 
 
+@media only screen and (max-width: 1550px) {
+.aboutMe_bg{
+  width: 60%;
+  margin:0 auto;
+}
+  }
 
 @media only screen and (max-width: 1400px) {
 .tech_item {
     width: 33.333333%;
     padding-bottom: 50px;
-justify-content: center;  }
+justify-content: center;  
+  }
 }
+
+@media only screen and (max-width: 1272px) {
+  .aboutMe_bg{
+    width: 70%;
+    margin:0 auto;
+  }
+  }
+  @media only screen and (max-width: 1083px) {
+    .aboutMe_bg{
+      width: 80%;
+      margin:0 auto;
+    }
+    }
+    @media only screen and (max-width: 948px) {
+      .aboutMe_bg{
+        width: 90%;
+        margin:0 auto;
+      }
+      }
+      @media only screen and (max-width: 783px) {
+        .imageAvatar_contact{
+          margin-top: 20px;
+        }
+        }
+      @media only screen and (max-width: 677px) {
+        .technology_bg{
+          width: 60%;
+          margin:0 auto;
+        }
+        }
+        @media only screen and (max-width: 550px) {
+          .technology_bg{
+            width: 70%;
+            margin:0 auto;
+          }
+          }
+          @media only screen and (max-width: 475px) {
+            .tech_item {
+              width: 50%;
+              padding-bottom: 50px;
+          justify-content: center;  
+            }
+            }
