@@ -87,7 +87,7 @@ body {
 }
 /* Type writing */
 .typewrite {
-  overflow: hidden; 
+  overflow: hidden;
   border-right: 0.15em solid #27a79a; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
@@ -220,7 +220,7 @@ body {
 #aboutMe {
   max-width: 100%;
 }
-.aboutMe_bg{
+.aboutMe_bg {
   padding-top: 3.125rem;
   padding-bottom: 3.125rem;
   width: 50%;
@@ -275,22 +275,22 @@ body {
   padding-top: 1.25rem;
 }
 .title-experience:before {
-  width: 9rem!important;
+  width: 9rem !important;
 }
 .title-experience:after {
   content: "WORK";
-  left: 9.4375rem!important;
+  left: 9.4375rem !important;
 }
 .title-education:before {
-  width: 6.625rem!important;
+  width: 6.625rem !important;
 }
 .title-education:after {
   content: "LEARNING";
-  left: 6.9375rem!important;
+  left: 6.9375rem !important;
 }
-.date{
+.date {
   font-style: italic;
-  color:rgb(151, 151, 151);
+  color: rgb(151, 151, 151);
   font-size: 0.875rem;
 }
 /* Timeline */
@@ -476,19 +476,19 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 0.8;
 }
-.project_title{
+.project_title {
   font-weight: bold;
   float: left;
   width: 5.9375rem;
 }
-.linkGitHub{
-  color:#27a79a;
+.linkGitHub {
+  color: #27a79a;
   text-decoration: none;
   font-weight: 500;
   transition: all 0.5s;
 }
-.linkGitHub:hover{
-  color:#17867a;
+.linkGitHub:hover {
+  color: #17867a;
   text-decoration: none;
 }
 /*============================================== END PROJECT ====================================================*/
@@ -801,61 +801,60 @@ textarea:focus ~ .highlight {
   visibility: visible;
 }
 
-
 @media only screen and (max-width: 96.875rem) {
-.aboutMe_bg{
-  width: 60%;
-  margin:0 auto;
-}
+  .aboutMe_bg {
+    width: 60%;
+    margin: 0 auto;
   }
+}
 
 @media only screen and (max-width: 87.5rem) {
-.tech_item {
+  .tech_item {
     width: 33.333333%;
     padding-bottom: 3.125rem;
-justify-content: center;  
+    justify-content: center;
   }
 }
 
 @media only screen and (max-width: 79.5rem) {
-  .aboutMe_bg{
+  .aboutMe_bg {
     width: 70%;
-    margin:0 auto;
+    margin: 0 auto;
   }
+}
+@media only screen and (max-width: 67.6875rem) {
+  .aboutMe_bg {
+    width: 80%;
+    margin: 0 auto;
   }
-  @media only screen and (max-width: 67.6875rem) {
-    .aboutMe_bg{
-      width: 80%;
-      margin:0 auto;
-    }
-    }
-    @media only screen and (max-width: 59.25rem) {
-      .aboutMe_bg{
-        width: 90%;
-        margin:0 auto;
-      }
-      }
-      @media only screen and (max-width: 48.9375rem) {
-        .imageAvatar_contact{
-          margin-top: 1.25rem;
-        }
-        }
-      @media only screen and (max-width: 42.3125rem) {
-        .technology_bg{
-          width: 60%;
-          margin:0 auto;
-        }
-        }
-        @media only screen and (max-width: 34.375rem) {
-          .technology_bg{
-            width: 70%;
-            margin:0 auto;
-          }
-          }
-          @media only screen and (max-width: 29.6875rem) {
-            .tech_item {
-              width: 50%;
-              padding-bottom: 3.125rem;
-          justify-content: center;  
-            }
-            }
+}
+@media only screen and (max-width: 59.25rem) {
+  .aboutMe_bg {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 48.9375rem) {
+  .imageAvatar_contact {
+    margin-top: 1.25rem;
+  }
+}
+@media only screen and (max-width: 42.3125rem) {
+  .technology_bg {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 34.375rem) {
+  .technology_bg {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 29.6875rem) {
+  .tech_item {
+    width: 50%;
+    padding-bottom: 3.125rem;
+    justify-content: center;
+  }
+}
