@@ -451,6 +451,7 @@ body {
   align-items: center;
   text-align: center;
   justify-content: center;
+  transition: all 0.8s;
 }
 .tech_title:hover{
   background-color: #27a79a;
