@@ -213,7 +213,18 @@ body {
 .navbar-dark .navbar-nav .nav-link.active {
   color: #27a79a;
 }
-
+.buttonDownLoad {
+  color: #fff;
+  background-color: #27a79a;
+  padding: 0.75rem 0.75rem;
+  border-radius: 0.25rem;
+  transition: all 0.5s;
+}
+.buttonDownLoad:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #17867a;
+}
 /*========================================================== END HEADER ================================================*/
 
 /*============================================================= ABOUT ME ===============================================*/
@@ -251,12 +262,12 @@ body {
   margin-bottom: 0.3125rem;
   list-style-type: none;
 }
-.link{
-  color:#3E5790;
+.link {
+  color: #3e5790;
   text-decoration: none;
   transition: all 0.5s;
 }
-.link:hover{
+.link:hover {
   text-decoration: none;
 }
 /*=========================================== END ABOUT ME =========================================================*/
@@ -453,7 +464,7 @@ body {
   justify-content: center;
   transition: all 0.8s;
 }
-.tech_title:hover{
+.tech_title:hover {
   background-color: #27a79a;
 }
 /*=============================================== END TECHNOLOGY ================================================*/
