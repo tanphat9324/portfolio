@@ -89,7 +89,7 @@ body {
 .typewrite {
   overflow: hidden;
   border-right: 0.15em solid #27a79a; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
+  white-space: nowrap;
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.15em; /* Adjust as needed */
   animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
@@ -866,6 +866,11 @@ textarea:focus ~ .highlight {
   .technology_bg {
     width: 60%;
     margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 35.375rem){
+  .typewrite {
+    white-space: normal;
   }
 }
 @media only screen and (max-width: 34.375rem) {
