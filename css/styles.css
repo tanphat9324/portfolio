@@ -379,7 +379,7 @@ body {
 .month {
   font-size: 2em;
   font-weight: 700;
-  opacity: 0.2;
+  opacity: 1;
 }
 
 @media screen and (max-width: 47.9375rem) {
