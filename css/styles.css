@@ -24,7 +24,7 @@ body {
   position: absolute;
   left: 50%;
   top: 50%;
-  background-image: url(/images/Wedges-3s-200px.gif);
+  background-image: url(../images/Wedges-3s-200px.gif);
   background-repeat: no-repeat;
   background-position: center;
   margin: -6.25rem 0 0 -6.25rem;
@@ -53,7 +53,7 @@ body {
 
 /*==================================================== HEADER ====================================================*/
 .imageHeader {
-  background-image: url(/images/developer.jpg);
+  background-image: url(../images/developer.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
